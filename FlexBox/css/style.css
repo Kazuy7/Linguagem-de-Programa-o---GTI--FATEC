@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.h {
+    background-color: rgb(14, 44, 70);
+    color: white;
+}
+.box-h {
+    font-size: 20px;
+    padding: 50px;
+    width: 80%;
+    margin: 0 auto;
+    text-transform: uppercase;
+}
+.g1 {
+    width: 80%;
+    margin: 0 auto;
+    padding: 30px 0;
+    line-height: 1.5;
+    display: flex;
+    justify-content: space-between;
+}
+.g1 div h3 {
+    padding: 10px 0 0 0;
+    border-bottom: 2px solid black;   
+}
+.g1 div p {
+    text-align: justify;
+    margin: 15px 0;
+    line-height: 1.5;
+}
+.imgs1 {
+    margin: 20px;
+    border-radius: 50%;
+}
+nav {
+    color: white;
+    background-color: rgb(0, 0, 0);
+    padding: 15px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav img {
+    width: 30px;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+.link {
+    color: white;
+    text-decoration: none;
+}
+.g2 {
+    background-color: rgb(207, 207, 207);
+    text-align: center;
+}
+.g2 h2 {
+    padding: 25px 0;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+.imgs2 {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    padding-bottom: 25px;
+}
+.foot {
+    background-color: rgb(14, 44, 70);
+    color: white;
+    text-align: center;
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+/*---------------
+ARTIGO
+---------------*/
+.g3 {
+    width: 80%;
+    margin: 0 auto;
+}
+.imgs3 {
+    width: 100%;
+    margin-bottom: 35px;
+}
+/*----------------
+GALERIA
+----------------*/
+.box-img {
+    width: 80%;
+    margin: 0 auto;
+    padding: 35px 0;
+}
+.sessao-img1 {
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+.sessao-img1 img {
+    width: 30%;
+}
+.sessao-img2 {
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+.sessao-img2 img {
+    width: 10%;
+}
+.sessao-img3 {
+    justify-content: space-around;
+    margin-top: 25px;
+    width: 120% !important;
+}
