@@ -1,0 +1,86 @@
+* {
+    /* font-family: 'Courier New', Courier, monospace; */
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+p {
+    font-weight: bold;
+}
+
+.logo {
+    /* border: 1px solid red; */
+    border-radius: 50%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.naveg {
+    /* border: 1px solid red; */
+    background-color: black;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.link {
+    /* border: 1px solid red; */
+    text-decoration: none;
+    color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#info {
+    /* border: 1px solid red; */
+    text-align: center;
+    background-color: rgb(236, 236, 236);
+}
+
+.foto {
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+#galeria {
+    /* border: 1px solid red; */
+    margin: 0 auto;
+    padding: 0 auto;
+    margin-top: 20px;
+}
+
+.img-01 {
+    /* border: 1px solid red; */
+    margin-bottom: 10px;
+}
+
+.img-02 {
+    /* border: 1px solid red; */
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.img-isolada {
+    /* border: 1px solid red; */
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+.foot {
+    /* border: 1px solid yellow; */
+    padding: 20px;
+    color: white;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+ul {
+    /* border: 1px solid yellow; */
+    padding-left: 0;
+    margin: 0 10px;
+}
