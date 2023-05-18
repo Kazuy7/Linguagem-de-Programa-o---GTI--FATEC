@@ -1,0 +1,32 @@
+.logo {
+    width: 36px;
+}
+header {
+    /* border: 1px solid red; */
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../img/background01.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+header h1 {
+    font-size: 120px;
+    font-weight: 100;
+    text-shadow: 2px 2px 2px white, -2px -2px 2px yellow;
+}
+.row {
+    /* border: 2px solid red; */
+    padding-left: 150px;
+    padding-right: 150px;
+}
+#gti {
+    background-image: url(../img/background01.jpg);
+    color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 80vh;
+}
