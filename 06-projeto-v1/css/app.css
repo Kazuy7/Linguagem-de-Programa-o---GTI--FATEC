@@ -1,0 +1,16 @@
+.bg-black {
+    background-color: #000;
+    color: rgb(0, 150, 75);
+}
+.bg-black a, .nav-link {
+    color: rgb(255, 255, 255) !important;
+}
+.bg-black a:hover, .nav-link:hover {
+    color: rgb(255, 0, 255) !important;
+}
+.dropdown-menu .dropdown-item {
+    color: rgb(0, 0, 0) !important;
+}
+.btn {
+    color: white !important;
+}
