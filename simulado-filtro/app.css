@@ -1,0 +1,24 @@
+.bg {
+  background-color: rgb(61, 60, 60);
+}
+
+.center {
+  text-align: center;
+}
+
+.P {
+  padding: 0;
+}
+
+.bnt-black:hover {
+  color: orange;
+  background-color: black;
+}
+
+.card {
+
+  background-color: black;
+  color: whitesmoke;
+
+}
+
