@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulado P1</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/app.css">
+</head>
+
+<body class="bg-grey">
+
+    <header class="d-flex justify-content-center p-4 bg-black">
+        <img src="img/Fundo Simulado.png" alt="">
+    </header>
+
+    <main class="container">
+
+        <h2 class="p-4 text-white">Galeria do Lucas</h2>
+        <div class="row p-3">
+            <select name="" class="col-4" id="opt">
+                <option value=" "> Selecione uma das opções.</option>
+                <option value="Projeto 01"> Projeto 01.</option>
+                <option value="Projeto 02"> Projeto 02.</option>
+                <option value="Projeto 03"> Projeto 03.</option>
+                <option value="Projeto 04"> Projeto 04.</option>
+                <option value="Projeto 05"> Projeto 05.</option>
+                <option value="Projeto 06"> Projeto 06.</option>
+                <option value="Projeto 07"> Projeto 07.</option>
+            </select>
+            <div class="col-2">
+                <button id="filtrar" class="btn btn-primary">filtrar</button>
+            </div>
+            <div class="col-6">
+                <button id="CR" class="btn btn-primary"> Carregar tudo</button>
+            </div>
+        </div>
+        
+        <div class="row" id="galeria">
+            
+        </div>
+
+    </main>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="dados.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
