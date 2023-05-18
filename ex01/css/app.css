@@ -1,0 +1,23 @@
+
+nav {
+    background-color: rgb(117, 117, 117);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav div ul {
+    padding-right: 25px;
+    text-align: center;
+    list-style: none;
+}
+.link {
+    text-decoration: none;
+    color: white;
+}
+nav img {
+    border-radius: 50%;
+    padding: 10px;
+}
+footer div {
+    padding-right: 27px;
+}
