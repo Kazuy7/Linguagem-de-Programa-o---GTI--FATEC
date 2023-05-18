@@ -1,0 +1,14 @@
+.bg-grey {
+    background-color: rgb(71, 71, 71);
+}
+.text-white {
+    color: white;
+}
+footer {
+    display: flex;
+    justify-content: end;
+}
+/* .row {
+    margin: 0 auto;
+    padding: 0 auto;
+} */
