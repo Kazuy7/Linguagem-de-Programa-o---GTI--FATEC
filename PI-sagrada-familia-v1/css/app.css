@@ -1,0 +1,139 @@
+* {
+    /* font-family: monospace; */
+    /* font-family: 'Courier New', Courier, monospace; */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.row {
+    padding: 0 auto;
+    margin: 0 auto;
+}
+
+.logo {
+    /* border: 1px solid red; */
+    width: 30%;
+}
+
+.naveg {
+    padding-top: 15px;
+}
+
+.link {
+    border-left: 1px solid white;
+    /* border-radius: 7%; */
+    color: white;
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 20px;
+}
+
+.link-b {
+    color: white;
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 20px;
+}
+
+header {
+    /* border: 1px solid red; */
+    color: white;
+    min-height: 50vh;
+    background-image: url(../img/BasílicaAP.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    background-attachment: fixed;
+}
+
+.foto {
+    border: 1px transparent;
+    border-radius: 5px;
+    width: 100%;
+    min-height: 10vh;
+}
+
+video {
+    /* border: 1px solid red; */
+    width: 50%;
+}
+
+.vd {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: rgb(5, 20, 105); */
+    background-image: url(../img/background-azul-IE.jpg);
+}
+
+footer {
+    /* min-height: 40vh; */
+    color: white;
+    font-size: 30px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-remove {
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: right;
+    padding-right: 0px;
+}
+
+#rf {
+    justify-content: end;
+    align-items: end;
+}
+
+@media(max-width: 767px) {
+    .btn-filtrar {
+        margin-top: 10px;
+        /* border: 1px solid red; */
+        display: flex;
+        justify-content: left;
+        padding-left: 0px;
+    }
+
+    .btn-remove {
+        /* border: 1px solid red; */
+        display: flex;
+        justify-content: right;
+        padding-right: 0px;
+        margin-top: 10px;
+    }
+    
+    .logo {
+        /* border: 1px solid red; */
+        width: 100%;
+    }
+    
+    header {
+        /* border: 1px solid red; */
+        color: white;
+        min-height: 50vh;
+        background-image: url(../img/BasílicaAP.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: top;
+        background-attachment: fixed;
+    }
+}
+
+@media (min-width: 768px) {
+    .logo {
+        /* border: 1px solid red; */
+        width: 30%;
+    }
+}
+
+@media(min-width: 1200px) {
+    .logo {
+        /* border: 1px solid red; */
+        width: 25%;
+        margin-left: 180px;
+    }
+}

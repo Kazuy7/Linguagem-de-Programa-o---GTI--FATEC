@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produtos</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/app.css">
+</head>
+<body>
+
+    <header>
+        <section class="naveg">
+            <div class="p-3 text-center">
+                <nav>
+                    <ul>
+                        <a class="link-b" href="../index.html">Home</a>
+                        <a class="link" href="produtos.html">Produtos</a>
+                        <a class="link" href="pedidos.html">Pedidos</a>
+                    </ul>
+                </nav>
+            </div>
+        </section>
+
+        <div>
+            <img class="logo" src="../img/Logo-SF.png" alt="">
+        </div>
+    </header>
+
+    <main class="container">
+
+        <h2 class="p-4 text-center">Produtos</h2>
+        <div class="row p-3">
+            <select class="col-lg-7 col-md-7 col-12" id="opt">
+                <option value=" "> Selecione uma das opções.</option>
+                <option value="Projeto 01">Porta Chaves Resinado</option>
+                <option value="Projeto 02"> Projeto 02</option>
+                <option value="Projeto 03"> Projeto 03</option>
+                <option value="Projeto 04"> Projeto 04</option>
+                <option value="Projeto 05"> Projeto 05</option>
+                <option value="Projeto 06"> Projeto 06</option>
+                <option value="Projeto 07"> Projeto 07</option>
+            </select>
+            
+            <div class="col-lg-2 col-md-2 col-4 btn-filtrar">
+                <button id="filtrar" class="btn btn-dark">Filtrar</button>
+            </div>
+            <div class="col-lg-3 col-md-3 col-8 btn-remove">
+                <button id="rf" class="btn btn-dark">Remover Filtro</button>
+            </div>
+        </div>
+        
+        <div class="row" id="galeria">
+            
+        </div>
+
+    </main>
+
+    <footer class="p-5 fs-5">
+        <div class="col-lg-6 col-md-6 col-6 text-end">
+            <ul>Whatsapp: (12)9 9999-9999</ul>
+            <ul>E-mail: sagrada@familia.com</ul>
+            <ul>Endereço: Casa do Jorge</ul>
+        </div>
+        <div class="col-lg-6 col-md-6 col-6">
+            <ul>Facebook: https://www.facebook.com/SagradaFamília</ul>
+            <ul>Instagram: https://wwww.instagram.com/SagradaFamília</ul>
+            <ul>Horário de Funcionamento: 8:00h às 17:00h</ul>
+        </div>
+    </footer>
+
+    <script src="../js/bootstrap.bundle.min.js"></script>
+    <script src="../js/dados.js"></script>
+    <script src="../js/app.js"></script>
+</body>
+</html>
